@@ -1,1 +1,1 @@
-
+Snappy is a web application which helps users to connect each other with security.Our application provides users to chat with others who have created account in Snappy by providing required details.This portal is helpfull specially to the people who wants to meet their friends who are in other countries.This repository implements the backend part of the portal using Node, MongoDB and Express.This project is done as part of Software Production Engineering Course.
