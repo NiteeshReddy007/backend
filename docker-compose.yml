@@ -1,0 +1,17 @@
+version: '3'
+services:
+  frontend:
+    image: rahulpuram123/frontend:latest
+    ports:
+      - '3000:3000'
+    environment:
+      - REACT_APP_LOCALHOST_KEY="chat-app-current-user"
+  backend:
+    image: rahulpuram123/backend:latest
+    ports:
+      - '5000:5000'
+    environment:
+      - MONGO=mongodb+srv://rahulkumarpuram:Rahul123456@cluster0.pswqiab.mongodb.net/
+      - JWT=a1cd158e2b34d47af6d0b446f59a326849f0dd8eb
+      
+
